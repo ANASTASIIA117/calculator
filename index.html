@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Calculator</title>
+</head>
+<body>
+	<h1 class="formula">Формула расчета ипотечного кредита</h1>
+	<img class="photo" src="formula.jpg">
+	<ul class="lic">
+		<li><span>Х</span> — это ежемесячный взнос по ипотеке, который мы пытаемся рассчитать.</li><br>
+		<li><span>S</span> — это общая сумма кредита.</li><br>
+		<li><span>P</span> обозначает месячную ставку по кредиту (это годовая процентная ставка, разделенная на 12).</li><br>
+		<li><span>M</span> — это срок кредитования в месяцах.</li><br>
+	</ul>
+	<div class="bord"></div>
+	<div class="formula">
+	<label for="summa">S:</label><input type="text" id = "summa"> <br>
+    <label for="stavka">p:</label><input type="text" id = "stavka" ><br>
+    <label for="term">m:</label><input type="text" id = "term"><br>
+	</div>
+
+    <button class="formula" id ="send">Вычислить</button>
+    <p id="result"></p>
+	<script src="main.js"></script>
+	</div>
+</body>
+</html>
