@@ -1,0 +1,46 @@
+body{
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	align-items: center;
+	background: white;
+}
+.formula{
+	padding: 10px;
+	margin: 10px;
+	font-family: Helvetica;
+	}
+.lic{
+	margin-left: 30px;
+	font-family: Helvetica;
+}
+input{
+	padding: 10px;
+	margin: 10px;
+	height: 20px;
+	width: 600px;
+	background: #0B63;
+	border: dashed #0B68;
+
+}
+img{
+	border-radius: 10px ;
+}
+input{
+	border-radius: 40px ;
+}
+li{
+	margin-left: 30px;
+}
+button{
+	border-radius: 40px ;
+	height: 40px;
+	width: 100px;
+	background: #0B63;
+	border: dashed #0B68;
+}
+bord{
+	border: dashed #0B68;
+	width: 800px;
+	height: 900px;
+}
